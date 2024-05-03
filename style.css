@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* body{
+    background-color: red;
+} */
+
+/* banner section start */
+#bannerSection{
+    height: 100vh;
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+#bannerSection{
+    background-image: url(/assets/BannerBackground.png);
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+}
+/* banner section end */
