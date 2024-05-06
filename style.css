@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -19,6 +21,32 @@ body{
 
   
 /* banner section start */
+.innerLogoContainer {
+    width: 25%;
+}
+.nav {
+    width: 75%;
+}
+.logaContianer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.innerLogoContainer img {
+    width: 85%;
+    object-fit: contain;
+    /* padding: 1rem; */
+}
+.contactDetails {
+    text-align: end;
+    font-size: 17px;
+    line-height: 71px;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: right;
+}
 #bannerSection{
     height: 100vh;
     width: 100%;
@@ -31,4 +59,50 @@ body{
     /* background-position: center; */
     /* background-repeat: no-repeat; */
 }
+
+.navItems{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+
+.navItems{
+    font-size: 21px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+}
+
+
+.smallText{
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+}
+.leftHeading{
+    font-size: 114px;
+    line-height: 62px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+.mediumText{
+    font-size: 56px;
+    line-height: 62px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
 /* banner section end */
+
