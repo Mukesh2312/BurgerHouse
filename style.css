@@ -15,7 +15,7 @@
     font-style: normal;
   }
 body{
-    background-color: red;
+    /* background-color: red; */
     font-family: var(--fontFamily);
     overflow-x: hidden;
 }
@@ -53,6 +53,7 @@ body{
     width: 100%;
     max-width: 1920px;
     margin: auto;
+    margin-bottom: 5rem;
 }
 
 #bannerSection{
@@ -86,30 +87,32 @@ body{
 
 .smallText{
     font-size: 24px;
-    line-height: 33px;
+    /* line-height: 33px; */
     text-transform: uppercase;
     color: #3d2514;
     font-weight: 400;
     font-family: "Bebas Neue";
-    border: 2px solid rgba(128, 128, 128, 0.473);
-
+    border: 3px solid rgb(110 106 106);
     border-style: dashed;
     width: fit-content;
     margin-bottom: 30px;
     padding: 1px 6px;
 }
 .leftHeading{
-    font-size: 114px;
-    line-height: 62px;
-    text-transform: uppercase;
-    color: #3d2514;
-    font-weight: 400;
-    font-family: "Alfa Slab One";
-    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+       font-size: 114px;
+       line-height: 66px;
+       text-transform: uppercase;
+       color: #3d2514;
+       font-weight: 400;
+       font-family: "Alfa Slab One";
+       filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+       margin-bottom: 12px;
+   
+   
 }
 .mediumText{
     font-size: 56px;
-    line-height: 62px;
+    /* line-height: 62px; */
     text-transform: uppercase;
     color: #3d2514;
     font-weight: 400;
@@ -177,4 +180,24 @@ body{
     left: -57%;
 }
 /* banner section end */
+
+/* Image section started  */
+    #imageSection{
+        width: 100%;
+        max-width: 1920px;
+        margin: auto;
+    }
+    .imageSectionInnercontainer{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .imageRightContnt {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+/* Image section end  */
 
