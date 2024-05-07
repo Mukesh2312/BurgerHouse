@@ -17,6 +17,7 @@
 body{
     background-color: red;
     font-family: var(--fontFamily);
+    overflow-x: hidden;
 }
 
   
@@ -48,7 +49,7 @@ body{
     text-align: right;
 }
 #bannerSection{
-    height: 100vh;
+    height: 775px;
     width: 100%;
     max-width: 1920px;
     margin: auto;
@@ -77,6 +78,11 @@ body{
     font-family: "Bebas Neue";
 }
 
+.bannerContents {
+    display: flex;
+    height: 570px;
+}
+
 
 .smallText{
     font-size: 24px;
@@ -85,6 +91,12 @@ body{
     color: #3d2514;
     font-weight: 400;
     font-family: "Bebas Neue";
+    border: 2px solid rgba(128, 128, 128, 0.473);
+
+    border-style: dashed;
+    width: fit-content;
+    margin-bottom: 30px;
+    padding: 1px 6px;
 }
 .leftHeading{
     font-size: 114px;
@@ -103,6 +115,66 @@ body{
     font-weight: 400;
     font-family: "Alfa Slab One";
     filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+.bannerConbtents{
+    height: 100%;
+}
+.bannerLeftContent {
+    width: 50%;
+    /* border: 1px solid black; */
+    /* height: inherit; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bannerRightContent {
+    /* border: 1px solid black; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+
+}
+
+
+.bannerImageContainer {
+    display: flex;
+}
+.bannerImage{
+    position: relative;
+}
+.friseContainer {
+    position: absolute;
+    left: 5%;
+    top: 22%;
+}
+
+
+.burgerContainer {
+    z-index: 220;
+}
+.burgerContainer::after{
+    content: url(/assets/BannerBugerShadow.png);
+    position: absolute;
+    bottom: -11%;
+    left: -11%;
+
+}
+
+.colaContianer {
+    position: absolute;
+    right: 12%;
+    top: 12%;
+    z-index: 3;
+}
+.colaImage::after{
+    content: url(/assets/BannerDrinkShadow.png);
+    position: absolute;
+    position: absolute;
+    bottom: -9%;
+    left: -57%;
 }
 /* banner section end */
 
