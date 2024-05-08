@@ -24,6 +24,8 @@ body{
 /* banner section start */
 .innerLogoContainer {
     width: 25%;
+    display: flex;
+    justify-content: end;
 }
 .nav {
     width: 75%;
@@ -49,7 +51,8 @@ body{
     text-align: right;
 }
 #bannerSection{
-    height: 775px;
+    height: 100vh;
+
     width: 100%;
     max-width: 1920px;
     margin: auto;
@@ -99,16 +102,14 @@ body{
     padding: 1px 6px;
 }
 .leftHeading{
-       font-size: 114px;
-       line-height: 66px;
-       text-transform: uppercase;
-       color: #3d2514;
-       font-weight: 400;
-       font-family: "Alfa Slab One";
-       filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
-       margin-bottom: 12px;
-   
-   
+    font-size: 114px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+    margin-bottom: 12px;
 }
 .mediumText{
     font-size: 56px;
@@ -123,7 +124,7 @@ body{
     height: 100%;
 }
 .bannerLeftContent {
-    width: 50%;
+    width: 48%;
     /* border: 1px solid black; */
     /* height: inherit; */
     display: flex;
@@ -133,7 +134,7 @@ body{
 }
 .bannerRightContent {
     /* border: 1px solid black; */
-    width: 50%;
+    width: 52%;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -182,22 +183,88 @@ body{
 /* banner section end */
 
 /* Image section started  */
-    #imageSection{
-        width: 100%;
-        max-width: 1920px;
-        margin: auto;
-    }
-    .imageSectionInnercontainer{
-        width: 90%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
-    }
-    .imageRightContnt {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
+#imageSection{
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+.imageSectionInnercontainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.imageRightContnt {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.imageDescriptionBox{
+    position: relative;
+}
+.imageDescriptionBox img{
+    display: flex;
+
+}
+.imgDescription{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+}
+.imgDescriptionSmallTxt{
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Bebas Neue";
+    letter-spacing: 1px;
+}
+.imgDescriptionheadTxt{
+    font-size: 45px;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Bebas Neue";
+}
+
+.imgBox{
+    position: relative;
+}
+.imgTxtContainer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.imgSmallTxt{
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Bebas Neue";
+    letter-spacing: 1px;
+}
+.imgHeadTxt{
+    font-size: 45px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Bebas Neue";
+}
 /* Image section end  */
+
+/* choose section started */
+#chooseSection{
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+/* choose section end */
 
