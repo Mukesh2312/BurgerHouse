@@ -187,6 +187,7 @@ body{
     width: 100%;
     max-width: 1920px;
     margin: auto;
+    margin-bottom: 5rem;
 }
 .imageSectionInnercontainer{
     width: 90%;
@@ -265,6 +266,110 @@ body{
     width: 100%;
     max-width: 1920px;
     margin: auto;
+}
+.chooseSmalltxt{
+    text-align: -webkit-center;
+    margin-bottom: 3rem;
+
+}
+.chooseSmalltxt h2{
+    width: fit-content;
+    padding: 10px 26px;
+    background-color: #ffc045;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+}
+.chooseHeadTxt{
+    text-align: center;
+
+    margin-bottom: 1.5rem;
+}
+.chooseHeadTxt h2{
+    font-size: 50px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+}
+
+.choosePara {
+    margin-bottom: 3rem;
+}
+.choosePara p{
+    width: 75%;
+    text-align: center;
+    height: 56px;
+    font-size: 17px;
+    line-height: 29px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: auto;
+}
+
+.orderBurgerContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.burgerBox {
+    text-align: center;
+}
+.burgerImageContainer{
+    position: relative;
+}
+.burgerDetails h3{
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+}
+.burgerDetails p{
+    /* width: 367px; */
+    height: 51px;
+    font-size: 17px;
+    line-height: 21px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+
+}
+.burgerDetails button{
+    font-size: 17px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    border: none;
+    padding: 7px 35px;
+    background-color: #bf2222;
+}
+burgerImageContainer{
+    margin-bottom: 1rem;
+}
+.burgerImageContainer::after{
+    content: url(/assets/Shadow1.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.burgerImageInnerContainer{
+    padding: 4rem 0;
+}
+.burgerDetails {
+    padding: 0 3rem;
+}
+.burgerDetails h3, p, button{
+    margin-bottom: 1rem;
 }
 /* choose section end */
 
