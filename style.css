@@ -266,6 +266,7 @@ body{
     width: 100%;
     max-width: 1920px;
     margin: auto;
+    margin-bottom: 5rem;
 }
 .chooseSmalltxt{
     text-align: -webkit-center;
@@ -372,4 +373,113 @@ burgerImageContainer{
     margin-bottom: 1rem;
 }
 /* choose section end */
+/* upcomming section started */
+#upcommingSection {
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.upcommingCotainer {
+    width: 90%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px -3px;
+    display: flex;
+    padding: 20px;
+}
+.upLeft {
+    padding: 2rem 3rem;
+    word-wrap: break-word;
+}
+.upLeft h5{
+    font-size: 29px;
+    letter-spacing: 2px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+}
+.upLeft h2{
+    font-size: 42px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+}
+.upPara {
+    margin-top: 2rem;
+}
+.upPara p{
+    font-size: 21px;
+    line-height: 33px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+/* upcomming section end */
+
+/* reservation section started */
+#reservationSection{
+    width: 100%;
+    max-width: 1920px;
+    margin: 5rem auto;
+}
+.reservationHaed {
+    text-align: center;
+}
+
+
+.reservationHaed p{
+    font-size: 29px;
+    letter-spacing: 2px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+}
+.reservationHaed h2{
+    font-size: 50px;
+    letter-spacing: 3px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+
+}
+.formContainer {
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px
+}
+input[type="text"] {
+    width: 15rem;
+    padding: 15px;
+}
+.formBtn button {
+    /* padding: 15px; */
+    width: 17rem;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #bf2222;
+    color: white;
+
+    font-size: 21px;
+    /* line-height: 46px; */
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    height: 100%;
+}
+/* reservation section end */
 
