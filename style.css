@@ -451,22 +451,24 @@ burgerImageContainer{
 
 }
 .formContainer {
-    width: 60%;
+    width: 40%;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 form {
     display: flex;
     flex-wrap: wrap;
-    gap:20px
+    gap: 20px;
+    justify-content: center;
 }
-input[type="text"] {
+
+.formItem{
     width: 15rem;
-    padding: 15px;
+    font-size: 21px;
 }
 .formBtn button {
     /* padding: 15px; */
-    width: 17rem;
+    /* width: 17rem; */
     margin-bottom: 0;
     border: none;
     border-radius: 5px;
